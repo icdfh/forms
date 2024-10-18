@@ -1,0 +1,79 @@
+body{
+    background-color: black;
+    max-width: 100%;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: white;
+}
+.navbar{
+    display: inline;
+    margin: 100px;
+    margin-left: 150px;
+   
+   
+}
+.navbar a{
+    display: inline;
+    margin: 50px;
+    margin-left: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    
+}
+.navbar a:hover{
+    text-decoration: dashed;
+}
+
+
+.loginbtn{
+    margin-left: 1600px;
+    position: absolute;
+    right: 100px;
+    top: 25px;
+    font-size: 18px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+
+.nav{
+    margin-left: 150px;
+   
+}
+.nav img {
+    width: 80px;
+    height: 40px;
+    border-radius: 50%;
+    position:absolute;
+    left: 80px;
+    top:20px;
+   
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.mainpageimg img{
+    border: 1px;
+    border-radius: 15px;
+
+}
+.foteer{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    left: 20px;
+    
+}
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поисковая форма через Google</title>
+  <style>
+
+   
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f4f4f4;
+      text-align: center;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .search-box {
+      display: inline-block;
+      margin-top: 50px;
+    }
+
+    .search-box input[type="text"] {
+      width: 300px;
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 20px;
+      outline: none;
+    }
+
+    .search-box button {
+      padding: 12px 20px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 20px;
+      margin-left: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .search-box button:hover {
+      background-color: #45a049;
+    }
+    
+  </style>
+</head>
+<body>
+
+  <h1>Поиск через Google</h1>
+
+  <div class="search-box">
+    <form action="https://www.google.com/search" method="GET">
+      <input type="text" name="q" placeholder="Введите запрос...">
+      <button type="submit">Поиск</button>
+    </form>
+  </div>
+
+</body>
+</html>
